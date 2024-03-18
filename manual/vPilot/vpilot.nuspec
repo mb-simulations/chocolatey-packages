@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+
+  <metadata>
+    <id>vpilot</id>
+    <version>3.8.1</version>
+    <packageSourceUrl>https://vpilot.rosscarlson.dev/Download</packageSourceUrl>
+    <owners>mbaehler</owners>
+
+    <title>vPilot (Install)</title>
+    <projectUrl>https://vpilot.rosscarlson.dev/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/mb-simulations/choco-vpilot/main/vpilot.png</iconUrl>
+    <copyright>2013-2024 Ross Alan Carlson</copyright>
+    <authors>Ross Carlson</authors>
+    <docsUrl>https://vpilot.rosscarlson.dev/Documentation</docsUrl>
+    <tags>vpilot flightsim vatsim</tags>
+    <summary>vPilot VATSIM pilot client</summary>
+    <description>vPilot is an application used to connect MSFS, FSX, or Prepar3D to the VATSIM network.</description>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
